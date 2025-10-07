@@ -1636,6 +1636,7 @@ jobs:
       - build-mageia
       - build-debian
       - build-ubuntu
+      - build-windows-mingw
     steps:
       - name: Install packages
         env:
@@ -1684,6 +1685,7 @@ jobs:
       - build-mageia
       - build-debian
       - build-ubuntu
+      - build-windows-mingw
     steps:
       - name: Install packages
         env:
